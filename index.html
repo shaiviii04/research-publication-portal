@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research Publication Portal</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">Research Repository</div>
+    <ul class="nav-links">
+      <li>Home</li>
+      <li>Publications</li>
+      <li>Domains</li>
+      <li>About</li>
+    </ul>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <h1>Institutional Research Publication Portal</h1>
+    <p>A centralized interface to explore academic research outputs</p>
+    <input type="text" placeholder="Search publications (UI only)">
+  </section>
+
+  <!-- MAIN LAYOUT -->
+  <div class="container">
+
+    <!-- SIDEBAR FILTERS (UI ONLY) -->
+    <aside class="sidebar">
+      <h3>Filter Publications</h3>
+
+      <div class="filter-group">
+        <p>Domain</p>
+        <label><input type="checkbox"> Energy</label>
+        <label><input type="checkbox"> Environment</label>
+        <label><input type="checkbox"> Computer Science</label>
+      </div>
+
+      <div class="filter-group">
+        <p>Year</p>
+        <select>
+          <option>All</option>
+          <option>2024</option>
+          <option>2023</option>
+          <option>2022</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <p>Status</p>
+        <label><input type="checkbox"> Published</label>
+        <label><input type="checkbox"> Accepted</label>
+        <label><input type="checkbox"> Under Review</label>
+      </div>
+    </aside>
+
+    <!-- PUBLICATION CARDS -->
+    <main class="cards">
+
+      <div class="paper-card">
+        <h3 class="paper-title">Renewable Energy Optimization Using Data Analytics</h3>
+        <p class="paper-authors">A. Kumar, R. Singh</p>
+
+        <div class="meta">
+          <span class="badge domain">Energy</span>
+          <span class="badge year">2023</span>
+          <span class="badge status published">Published</span>
+        </div>
+
+        <p class="journal">Journal of Sustainable Energy Systems</p>
+        <button>View Details</button>
+      </div>
+
+      <div class="paper-card">
+        <h3 class="paper-title">Urban Air Quality Monitoring Using IoT Sensors</h3>
+        <p class="paper-authors">S. Mehta, P. Verma</p>
+
+        <div class="meta">
+          <span class="badge domain">Environment</span>
+          <span class="badge year">2024</span>
+          <span class="badge status accepted">Accepted</span>
+        </div>
+
+        <p class="journal">Environmental Monitoring Journal</p>
+        <button>View Details</button>
+      </div>
+
+      <div class="paper-card">
+        <h3 class="paper-title">Machine Learning Techniques for Traffic Prediction</h3>
+        <p class="paper-authors">R. Gupta, N. Shah</p>
+
+        <div class="meta">
+          <span class="badge domain">Computer Science</span>
+          <span class="badge year">2022</span>
+          <span class="badge status published">Published</span>
+        </div>
+
+        <p class="journal">International Journal of Computer Applications</p>
+        <button>View Details</button>
+      </div>
+
+    </main>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Demo academic portal — sample publication data used</p>
+    <p>© 2026 Research Publication Portal</p>
+  </footer>
+
+</body>
+</html>
