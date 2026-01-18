@@ -161,6 +161,19 @@ button {
   font-size: 0.9rem;
   color: #444;
 }
+.controls {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.controls input,
+.controls select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 100%;
+  max-width: 300px;
+}
 
 
 /* FOOTER */
