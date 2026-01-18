@@ -10,9 +10,9 @@ A responsive frontend UI for managing and exploring academic research publicatio
 ## Tech Stack
 - HTML5
 - CSS3
+- JavaScript
 
 ## Future Scope
-- JavaScript-based filtering & search
 - REST API integration
 
 ## Note
